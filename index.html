@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container d-flex justify-contene-center align-items-center">
+        <form>
+            <div class="calcHeader">
+                <input type="button" name="result" id="result" value="0" autocomplete="off">
+            </div>
+            <div class="calcBody">
+                <div class="row d-flex">
+                    <input type="button" name="reset" id="reset" value="C" onclick="clearDisplay()">
+                    <h5>JavaScript Calculator</h5>
+                </div>
+                <div class="row d-flex bg-primary">
+                    <input type="button" name="seven" id="seven" value="7">
+                    <input type="button" name="eight" id="eight" value="8">
+                    <input type="button" name="nine" id="nine" value="9">
+                    <input type="button" name="add" id="add" value="+">
+                    <input type="button" name="abs" id="abs" value="|x|">
+                    <input type="button" name="ceil" id="ceil" value="ce">
+                </div>
+                <div class="row d-flex">
+                    <input type="button" name="four" id="four" value="4">
+                    <input type="button" name="five" id="five" value="5">
+                    <input type="button" name="six" id="six" value="6">
+                    <input type="button" name="minus" id="minus" value="-">
+                    <input type="button" name="radical" id="radical" value="√">
+                    <input type="button" name="floor" id="floor" value="fl">
+                </div>
+                <div class="row d-flex">
+                    <input type="button" name="one" id="one" value="1">
+                    <input type="button" name="two" id="two" value="2">
+                    <input type="button" name="three" id="three" value="3">
+                    <input type="button" name="multiply" id="multiply" value="*">
+                    <input type="button" name="round" id="round" value="r">
+                    <input type="button" name="power" id="power" value="^">
+                </div>
+                <div class="row d-flex">
+                    <input type="button" name="zero" id="zero" value="0">
+                    <input type="button" name="dot" id="dot" value=".">
+                    <input type="button" name="slash" id="slash" value="/">
+                    <input type="button" name="equal" id="equal" value="=">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
